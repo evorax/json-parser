@@ -30,8 +30,12 @@ func main() {
 	fmt.Println(result.Null)
 }
 ```
-## Benchmark is <br>
+### Benchmark Command is<br>
 ```
-Benchmark_Parser_Default-16     1000000000               0.0000224 ns/op               0 B/op          0 allocs/op
-Benchmark_Parser-16             1000000000               0.0000196 ns/op               0 B/op          0 allocs/op
+go test -bench . -benchmem -v
+```
+## Benchmark result is <br>
+```
+Benchmark_Parser_Default-16     1000000000               0.0000224 ns/op
+Benchmark_Parser-16             1000000000               0.0000196 ns/op
 ```
