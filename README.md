@@ -31,11 +31,12 @@ func main() {
 }
 ```
 ## Benchmark <br>
+the difference is small, but here are the benchmark results <br>
 ### Benchmark Command is<br>
 ```
 go test -bench . -benchmem -v
 ```
-## Benchmark result is <br>
+### Benchmark result is <br>
 ```
 Benchmark_Parser_Default-16     1000000000               0.0000224 ns/op
 Benchmark_Parser-16             1000000000               0.0000196 ns/op
