@@ -30,6 +30,7 @@ func main() {
 	fmt.Println(result.Null)
 }
 ```
+## Benchmark <br>
 ### Benchmark Command is<br>
 ```
 go test -bench . -benchmem -v
